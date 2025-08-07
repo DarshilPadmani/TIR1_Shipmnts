@@ -3,7 +3,7 @@ const cors = require('cors');
 const morgan = require('morgan');
 
 // Import routes
-const sampleRoutes = require('./routes/sampleRoutes');
+const sampleRoutes = require('./routes/sandwichRouter');
 
 const app = express();
 
